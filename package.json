@@ -1,0 +1,34 @@
+{
+  "name": "matsya",
+  "version": "0.0.1",
+  "description": "Node Express Websocket MessagePack API starter kit",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./config/webpack/unversal.conf.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cachy/matsya.git"
+  },
+  "author": "Cachy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cachy/matsya/issues"
+  },
+  "homepage": "https://github.com/Cachy/matsya#readme",
+  "dependencies": {
+    "streamws": "*",
+    "msgpack-lite": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "*"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "6.2.1"
+  }
+}
